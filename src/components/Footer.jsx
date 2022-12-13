@@ -4,16 +4,15 @@ import payment from '../assets/pay/pay.png'
 
 const Footer = () => {
   return (
-    <div className='footer exp'>
+    <div className='footer'>
       <div className="left">
-        <div>HamroFootware</div>
+        <div>HamroFootwear</div>
         <h5>Contact</h5>
         <div className="contact">
           <p><span>Address: </span>Street-90, Thaha Chowk Kathamandu</p>
           <p><span>Phone: </span>+977 988832732</p>
           <p><span>Gmial: </span>hamrofootware90@gmail.com</p>
         </div>
-        <h5>Follow Us</h5>
         
       </div>
       <div className="middle">

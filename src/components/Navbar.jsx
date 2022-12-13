@@ -32,7 +32,7 @@ const Navbar = () => {
           ))}
         </div>
         <div className="logo">
-          <Link to="/" className='title'>Hamro Footware</Link> <br />
+          <Link to="/" className='title'>Hamro Footwear</Link> <br />
           <small>The brand with an Affordable Price</small>
         </div>
         <div className="right">
