@@ -1,7 +1,7 @@
 import './globals.scss'
 import {createBrowserRouter, Navigate, Outlet, RouterProvider} from 'react-router-dom'
 import { Footer, Navbar } from './components'
-import { Brands, Cart, Details, Home, LoginSignup, Product, WishList } from './pages'
+import { Brands, Cart, Details, Home, LoginSignup, Product, Wishlist } from './pages'
 import { useSelector } from 'react-redux'
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
       element: <ProtectedRoute><Layout/></ProtectedRoute>,
       children: [
         {path:"/cart", element: <Cart/>},
-        {path:"/wishlist", element: <WishList/>},
+        {path:"/wishlist", element: <Wishlist/>},
       ]
     },
     { //NonProtectedRoute
